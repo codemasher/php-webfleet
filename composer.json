@@ -1,0 +1,30 @@
+{
+	"name": "codemasher/php-webfleet",
+	"description": "A wrapper for the TomTom Business Webfleet.connect API. PHP 7+",
+	"homepage": "https://github.com/codemasher/php-webfleet",
+	"license": "MIT",
+	"type": "library",
+	"keywords": [
+		"webfleet", "tomtom", "telematics" ,"api", "wrapper"
+	],
+	"authors": [
+		{
+			"name": "Smiley",
+			"email": "smiley@chillerlan.net"
+		}
+	],
+	"require": {
+		"php": ">=7.0.3",
+		"chillerlan/php-curl": "dev-master",
+		"vlucas/phpdotenv": "2.*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "6.0.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"TomTom\\Telematics\\": "src",
+			"TomTom\\TelematicsTest\\": "tests"
+		}
+	}
+}

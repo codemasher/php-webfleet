@@ -1,0 +1,7 @@
+.idea
+vendor
+config/.env
+composer.lock
+
+*.pdf
+_stuff
