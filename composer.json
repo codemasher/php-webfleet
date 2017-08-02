@@ -1,5 +1,5 @@
 {
-	"name": "codemasher/php-webfleet",
+	"name": "chillerlan/php-webfleet",
 	"description": "A wrapper for the TomTom Business Webfleet.connect API. PHP 7+",
 	"homepage": "https://github.com/codemasher/php-webfleet",
 	"license": "MIT",
