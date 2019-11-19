@@ -15,7 +15,7 @@
 	],
 	"require": {
 		"php": ">=7.0.3",
-		"chillerlan/php-curl": "dev-master",
+		"chillerlan/php-curl": "^1.0",
 		"vlucas/phpdotenv": "2.*"
 	},
 	"require-dev": {
