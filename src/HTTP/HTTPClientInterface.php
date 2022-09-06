@@ -19,7 +19,7 @@ use TomTom\Telematics\WebfleetResponse;
  */
 interface HTTPClientInterface{
 
-	const API_BASE = 'https://csv.telematics.tomtom.com/extern/';
+	const API_BASE = 'https://csv.webfleet.com/extern/';
 
 	/**
 	 * @param array  $params
